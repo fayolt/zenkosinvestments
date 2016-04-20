@@ -112,6 +112,14 @@ hr {
 	font-weight: 700;
 	letter-spacing: 1px;
 }
+#menu a.pull-left img {
+	max-height: 40px;
+    overflow: visible;
+    margin-top: 5px;
+    padding-right: 5px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
 #menu a.navbar-brand i.fa {
 	color: #f3ca27;
 }
