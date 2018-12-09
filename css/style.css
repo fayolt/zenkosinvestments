@@ -281,6 +281,10 @@ header p {
 	color: #f1c40f;
 }
 
+ul.cat li {
+	display: inline-block;
+}
+
 .categories {
 	padding-bottom: 20px;
 	text-align: center;
