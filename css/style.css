@@ -130,16 +130,13 @@ hr {
 	letter-spacing: 1px;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
-	/*color: #f3ca27;*/
 	color: #73a53e;
 }
 .on {
-	/*background-color: #032731 !important;*/
 	background-color: #4E5243 !important;
 	padding: 0 !important;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	/*color: #f3ca27 !important;*/
 	color: #73a53e !important;
 	background-color: transparent;
 }
@@ -249,7 +246,7 @@ header p {
 }
 /* Gallery Section 
 ==============================*/
-#works-section {
+#projects-section {
 	padding: 80px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c1a618+0,f1c40f+25,f1c40f+75,c1a618+100 */
 	/*background: rgb(193,166,24); /* Old browsers */
@@ -259,7 +256,7 @@ header p {
 	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1a618', endColorstr='#c1a618', GradientType=0 ); /* IE6-9 */
 	color: #4E5243;
 }
-#works-section i.fa {
+#projects-section i.fa {
 	font-size: 30px;
 	padding: 5px;
 	/*color: #f1c40f;*/
@@ -288,30 +285,36 @@ header p {
 	padding-bottom: 20px;
 	text-align: center;
 }
-#works-section hr {
+#projects-section hr {
 	/*background: #a9971c;*/
 }
-ul.cat li {
+/* ul.cat li {
 	display: inline-block;
+} */
+#projects-section ol.type {
+	/* margin-left: -4rem; */
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
-ol.type li {
-	display: inline-block;
+#projects-section ol.type li {
+	/* display: inline-block; */
 	margin-left: 20px;
 	margin-bottom: 30px;
 }
-ol.type li a {
+#projects-section ol.type li a {
 	/*color: #51633d;*/
 	color: #4E5243;
 	border: 1px solid #4E5243;
 	padding: 8px 16px;
 	border-radius: 3px;
 }
-ol.type li a.active {
+#projects-section ol.type li a.active {
 	/*background: #f7dc6f;*/
 	color: #fef9e7;
 	background: #73a53e;
 }
-ol.type li a:hover {
+#projects-section ol.type li a:hover {
 	/*background: #f7dc6f;*/
 	color: #73a53e;
 	background: #fef9e7;
