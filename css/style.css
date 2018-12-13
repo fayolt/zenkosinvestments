@@ -264,7 +264,7 @@ header p {
 }
 
 
-#carrers-section {
+#careers-section {
 	padding: 80px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c1a618+0,f1c40f+25,f1c40f+75,c1a618+100 */
 	/*background: rgb(193,166,24); /* Old browsers */
@@ -275,7 +275,7 @@ header p {
 	background-color: #73a53e;
 	/*color: #4E5243;*/
 }
-#carrers-section i.fa {
+#careers-section i.fa {
 	font-size: 30px;
 	padding: 5px;
 	color: #f1c40f;
