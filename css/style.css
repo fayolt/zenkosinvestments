@@ -201,18 +201,10 @@ header p {
 /* Services Section */
 #services-section {
 	padding: 80px 0 100px 0;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#032731+0,032e3a+20,032e3a+100,032731+100 */
-	/*background: rgb(3,39,49); /* Old browsers */
-	background: #73a53e;
-	/*background: -moz-linear-gradient(top, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* FF3.6-15 */
-	/*background: -webkit-linear-gradient(top, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	/*background: linear-gradient(to bottom, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', endColorstr='#032731', GradientType=0 ); /* IE6-9 */
-	/*color: #5b777f;*/
-	color: #fef9e7;
+	color: #4E5243;
 }
 #services-section h4 {
-	/*color: #81969c;*/
+	color: #4E5243;
 	text-transform: uppercase;
 }
 #services-section li {
@@ -222,7 +214,8 @@ header p {
 }
 #services-section li:before {
 	content: "✓";
-	color: #f3ca27;
+	/* color: #f3ca27; */
+	color: #4E5243;
 	padding-right: 5px;
 }
 .space {
@@ -234,11 +227,10 @@ header p {
 	width: 100px;
 	height: 80px;
 	padding: 22px 25px;
-	/*background: #032934;*/
 	background: #4E5243 !important;
 	margin-bottom: 6px;
 	border-radius: 10%;
-	/*color: #f3ca27;*/
+	color: #fef9e7;
 	transition: all 0.5s;
 }
 #services-section .service:hover>i.fa {
@@ -248,13 +240,9 @@ header p {
 ==============================*/
 #projects-section {
 	padding: 80px 0;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c1a618+0,f1c40f+25,f1c40f+75,c1a618+100 */
-	/*background: rgb(193,166,24); /* Old browsers */
-	/*background: -moz-linear-gradient(top, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* FF3.6-15 */
-	/*background: -webkit-linear-gradient(top, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	/*background: linear-gradient(to bottom, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1a618', endColorstr='#c1a618', GradientType=0 ); /* IE6-9 */
-	color: #4E5243;
+	/* color: #4E5243; */
+	color: #fef9e7;
+	background:#73a53e;
 }
 #projects-section i.fa {
 	font-size: 30px;
@@ -263,32 +251,6 @@ header p {
 	color:#73a53e;
 }
 
-
-#careers-section {
-	padding: 80px 0;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c1a618+0,f1c40f+25,f1c40f+75,c1a618+100 */
-	/*background: rgb(193,166,24); /* Old browsers */
-	/*background: -moz-linear-gradient(top, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* FF3.6-15 */
-	/*background: -webkit-linear-gradient(top, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	/*background: linear-gradient(to bottom, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1a618', endColorstr='#c1a618', GradientType=0 ); /* IE6-9 */
-	background-color: #73a53e;
-	/*color: #4E5243;*/
-}
-#careers-section i.fa {
-	font-size: 30px;
-	padding: 5px;
-	color: #f1c40f;
-}
-
-ul.cat li {
-	display: inline-block;
-}
-
-.categories {
-	padding-bottom: 20px;
-	text-align: center;
-}
 #projects-section hr {
 	/*background: #a9971c;*/
 }
@@ -307,21 +269,39 @@ ul.cat li {
 	margin-bottom: 30px;
 }
 #projects-section ol.type li a {
-	/*color: #51633d;*/
-	color: #4E5243;
-	border: 1px solid #4E5243;
+	color: #fef9e7;
+	border: 1px solid #fef9e7;
 	padding: 8px 16px;
 	border-radius: 3px;
 }
 #projects-section ol.type li a.active {
-	/*background: #f7dc6f;*/
-	color: #fef9e7;
-	background: #73a53e;
+	background: #fef9e7;
+	color: #4E5243;
 }
 #projects-section ol.type li a:hover {
-	/*background: #f7dc6f;*/
-	color: #73a53e;
+	color: #4E5243;
 	background: #fef9e7;
+}
+
+
+#careers-section {
+	padding: 80px 0;
+	background-color: #73a53e;
+	/*color: #4E5243;*/
+}
+#careers-section i.fa {
+	font-size: 30px;
+	padding: 5px;
+	color: #f1c40f;
+}
+
+ul.cat li {
+	display: inline-block;
+}
+
+.categories {
+	padding-bottom: 20px;
+	text-align: center;
 }
 
 #carrers-section ol.type li a {
@@ -510,13 +490,6 @@ ul.cat li {
 /* About Section */
 #about-section {
 	padding: 80px 0;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#032731+0,032e3a+20,032e3a+100,032731+100 */
-	/*background: rgb(3,39,49); /* Old browsers */
-	/*background: #7f7f7f;*/
-	/*background: -moz-linear-gradient(top, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* FF3.6-15 */
-	/*background: -webkit-linear-gradient(top, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	/*background: linear-gradient(to bottom, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', endColorstr='#032731', GradientType=0 ); /* IE6-9 */
 	/*color: #5b777f;*/
 	color: #4E5243;
 }
@@ -620,19 +593,12 @@ a.accordion-toggle  i{
   border-radius: 0;
 }
 
-
-
 /* Team Section */
 #team-section {
 	padding: 80px 0;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c1a618+0,f1c40f+25,f1c40f+75,c1a618+100 */
-	/*background: rgb(193,166,24); /* Old browsers */
 	background: #73a53e;
-	/*background: -moz-linear-gradient(top, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* FF3.6-15 */
-	/*background: -webkit-linear-gradient(top, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	/*background: linear-gradient(to bottom, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1a618', endColorstr='#c1a618', GradientType=0 ); /* IE6-9 */
 }
+
 #team-section hr {
 	/*background: #a9971c;*/
 }
@@ -837,17 +803,9 @@ img.img-circle.team-img {
 /* Contact Section */
 #contact-section {
 	padding: 80px 0 20px 0;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c1a618+0,f1c40f+25,f1c40f+75,c1a618+100 */
-	/*background: rgb(193,166,24); /* Old browsers */
-	/*background: #73a53e;  center*/
 	background: url(../img/agribusiness_blured.png);
 	background-size: cover;
 	background-attachment: fixed;
-	
-	/*background: -moz-linear-gradient(top, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* FF3.6-15 */
-	/*background: -webkit-linear-gradient(top, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	/*background: linear-gradient(to bottom, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1a618', endColorstr='#c1a618', GradientType=0 ); /* IE6-9 */
 }
 #contact-section hr {
 	/*background: #a9971c;*/
@@ -958,26 +916,26 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 @media (max-width: 768px) {
-.content {
-	padding: 40% 0 0;
-}
+	.content {
+		padding: 40% 0 0;
+	}
 }
 
 @media (max-width: 603px) {
-#menu.navbar-default {
-	background-color: rgba(0, 0, 0, 0.7);
-}
-label {
-	float: none !important
-}
-.hover-bg .hover-text {
-	padding: 12% 10%;
-}
+	#menu.navbar-default {
+		background-color: rgba(0, 0, 0, 0.7);
+	}
+	label {
+		float: none !important
+	}
+	.hover-bg .hover-text {
+		padding: 12% 10%;
+	}
 }
 
 @media (max-width: 360px) {
-.hover-bg .hover-text {
-	padding: 22% 10%;
-}
+	.hover-bg .hover-text {
+		padding: 22% 10%;
+	}
 
 }
