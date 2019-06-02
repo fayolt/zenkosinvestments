@@ -152,7 +152,7 @@ hr {
 }
 /* Home Style */
 header {
-	background: url(../img/agribusiness_blured.png) no-repeat bottom center;
+	background: url(../images/agribusiness_blured.png) no-repeat bottom center;
 	background-size: cover;
 	color: #d9e0e2;
 	position: relative;
@@ -236,7 +236,7 @@ header p {
 #services-section .service:hover>i.fa {
 	background: #0b3540;
 }
-/* Gallery Section 
+/* Project Section 
 ==============================*/
 #projects-section {
 	padding: 80px 0;
@@ -283,7 +283,8 @@ header p {
 	background: #fef9e7;
 }
 
-
+/* Career Section 
+==============================*/
 #careers-section {
 	padding: 80px 0;
 	background-color: #73a53e;
@@ -365,8 +366,8 @@ ul.cat li {
 	text-align: center;
 	margin: 0 auto;
 	color: #c0cbce;
-	/*background: rgba(3, 46, 58, 0.8);*/
-	background: rgba(78, 82, 67, 0.8);
+	background: rgba(3, 46, 58, 0.8);
+	/* background: rgba(78, 82, 67, 0.8); */
 	padding: 25% 0;
 	height: 100%;
 	width: 100%;
@@ -664,7 +665,7 @@ img.img-circle.team-img {
 #testimonials-section {
 	/*padding: 80px 0;
 	Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#032731+0,032e3a+20,032e3a+100,032731+100 
-	background: url(../img/testimonials-bg.jpg);
+	background: url(../images/testimonials-bg.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	color: #5b777f;*/
@@ -774,36 +775,39 @@ img.img-circle.team-img {
 	text-align: justify;
 }
 
-/* Interests Section */
-#interests-section {
+/* network Section */
+#network-section {
 	padding: 80px 0;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#032731+0,032e3a+20,032e3a+100,032731+100 */
-	/*background: url(../img/testimonials-bg.jpg);
-	background-size: cover;
-	background-attachment: fixed;*/
 	color: #4E5243;
 }
-#interest {
+
+#network-section i.fa {
+	font-size: 30px;
+	padding: 5px;
+	color: #fef9e7;
+}
+
+#network {
 	padding: 30px 0;
 }
-#interest .item {
+#network .item {
 	display: block;
 	width: 100%;
 	height: auto;
 }
-#interest .item p {
+#network .item p {
 	font-weight: 400;
 	margin: 0 0 30px 0;
 }
 
-#interest .item p a {
+#network .item p a {
 	color:#73a53e;
 }
 
 /* Contact Section */
 #contact-section {
 	padding: 80px 0 20px 0;
-	background: url(../img/agribusiness_blured.png);
+	background: url(../images/agribusiness_blured.png);
 	background-size: cover;
 	background-attachment: fixed;
 }
