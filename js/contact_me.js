@@ -16,9 +16,6 @@ $(function() {
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
-            console.log(name);
-            console.log(email);
-            console.log(message);
             $.ajax({
                 url: "././mail/contact_me.php",
                 type: "POST",
